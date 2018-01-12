@@ -1,0 +1,48 @@
+*{
+box-sizing:border-box;
+}
+/* ---------------------------- NAV ---------------------------- */
+.nav-style span{
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.3rem;
+}
+
+.nav-style{
+  background: #5B8DBC;
+}
+
+.nav-test{
+  color: #fff;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.nav-test:hover{
+  color: #E5E5E5;
+  text-decoration: none;
+}
+/* ---------------------------- JUMBOTRON ---------------------------- */
+.jumbotron-bg{
+  background-color: #2F1509;
+}
+/* ---------------------------- MAIN ---------------------------- */
+.products-bg{
+  background: url("img/back.png") no-repeat;
+  background-size: cover;
+  height:100%;
+  }
+
+  h1{
+    color: #fff;
+    border-bottom: 3px solid white;
+  }
+.card img{
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.card p{
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
