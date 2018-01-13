@@ -1,7 +1,9 @@
 *{
 box-sizing:border-box;
 }
+
 /* ---------------------------- NAV ---------------------------- */
+
 .nav-style span{
   color: white;
   font-family: 'Fredoka One', cursive;
@@ -21,11 +23,15 @@ box-sizing:border-box;
   color: #E5E5E5;
   text-decoration: none;
 }
+
 /* ---------------------------- JUMBOTRON ---------------------------- */
+
 .jumbotron-bg{
   background-color: #2F1509;
 }
+
 /* ---------------------------- MAIN ---------------------------- */
+
 .products-bg{
   background: url("img/back.png") no-repeat;
   background-size: cover;
@@ -49,6 +55,7 @@ box-sizing:border-box;
 
 
 /* ---------------------------- PRODUCTS ---------------------------- */
+
 .wraper{
   width: 100%;
 }
@@ -62,4 +69,15 @@ box-sizing:border-box;
   opacity: 1;
   filter: alpha(opacity=50);
   transition: all 0.2s ease-in;
+}
+
+/* ---------------------------- GOOGLE MAP ---------------------------- */
+
+#googleMap{
+  margin: auto;
+  width:80%;
+  height:400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px solid #5B8DBC;
 }
