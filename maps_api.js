@@ -16,9 +16,9 @@ function myMap() {
               position: place.geometry.location
             });
             google.maps.event.addListener(marker, 'click', function() {
-              infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-                'Place ID: ' + place.place_id + '<br>' +
-                place.formatted_address + '</div>');
+              infowindow.setContent('<div><h6>' + place.name + '</h3>' +
+                place.formatted_address + '<br><br>' +
+                '<a href = "https://www.google.hr/maps/place/Galapagos/@45.7867821,15.9476388,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d69980208ecf:0x54b25075f60c962b!8m2!3d45.7867784!4d15.9498328?hl=hr" target="_blank">Open in Google Maps</a>' + '</div>');
               infowindow.open(map, this);
             });
           }
