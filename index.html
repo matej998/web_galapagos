@@ -10,7 +10,7 @@
     <title>Palačinkarnica Galapagos</title>
   </head>
   <body>
-    <div class="nav-style pt-2 pb-2">
+    <div class="nav-style pt-2 pb-2" id="top">
     <div class = "container">
       <div class="d-flex flex-column flex-sm-row text-center">
     <div class="mr-sm-auto p-2"><span>GALAPAGOS</span></div>
@@ -87,14 +87,16 @@
      </div>
      <div class="d-flex justify-content-between mb-3">
      <span class="text-white">Made with love by <strong>Matej Šalić</strong></span>
+     <span class="text-white"><a href="#top">To Top</a></span>
      </div>
   </div>
 </footer>
 
-    <!-- jQuery first, then Bootstrap JS, then GoogleMapsApi.js, -->
+    <!-- jQuery first, then external JS, then Bootstrap JS, then GoogleMapsApi JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="maps_api.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="smooth_scrolling.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhldm4fD7UwL4llTNL9bSN8vqxcj7Gog8&libraries=places&callback=myMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhldm4fD7UwL4llTNL9bSN8vqxcj7Gog8&libraries=places&callback=location_map"></script>
   </body>
 </html>

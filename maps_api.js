@@ -1,4 +1,4 @@
-function myMap() {
+function location_map() {
         var map = new google.maps.Map(document.getElementById('googleMap'), {
           center: {lat: 45.8011264, lng: 16.0026024},
           zoom: 11
